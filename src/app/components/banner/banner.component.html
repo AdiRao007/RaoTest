@@ -1,0 +1,13 @@
+
+<div class="main container2">
+    <div class="banner" *ngFor="let item of bannerData">
+      <div class="text" color="primary">
+        <h2>{{item.heading}}</h2>
+      </div>
+      <div class="tagline">{{item.tagline}}</div>
+      <button class="btn" (click)="modalservice.showDailog = true">
+        {{item.explorebutton}}
+      </button>
+        <img  class="main-pic" src="../../../assets/images/banner.jpg" alt="banner" /> 
+    </div>
+</div>

@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { GeneralService } from './shared/services/general.service';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'MyTest';
+  constructor(public modalservice: GeneralService, public searchservice: GeneralService){
+
+  }
 }

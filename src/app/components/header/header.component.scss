@@ -1,0 +1,30 @@
+.container .col {
+    width: 33.3%;
+    float: left;
+}
+.search{
+    width: 50px !important;
+    height: 50px;
+    margin: 0 auto;
+    margin-top: 50px;
+    box-shadow: rgb(0 0 0 / 10%) 0px 10px 50px;
+    border-radius: 100px;
+    background-color: #fff;
+    float: right;
+    position: relative;
+}
+
+.search svg{
+    width: 20px !important;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    height: fit-content;
+}
+img.formobile {
+    width: 100%;
+    display: table;
+}

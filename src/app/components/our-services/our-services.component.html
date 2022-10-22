@@ -1,0 +1,83 @@
+<div class="main services">
+  <div class="banner" *ngFor="let item of servicesData">
+    <div class="tagline">{{item.heading}}</div>
+    <div color="primary">
+      <h2>{{item.tagline}}</h2>
+    </div>
+  </div>
+  <div class="container">
+    <div class="cols" *ngFor="let item of servicesbox">
+      <div class="banner">
+        <img src="{{item.img}}" alt="icon" />
+        <div class="services-text">
+          <h2>{{item.heading}}</h2>
+        </div>
+        <div class="tagline tagline2">{{item.tagline}}</div>
+      </div>
+    </div>
+    <div class="bnt-set">
+      <button class="explore">CHECK OUR OFFER</button>
+    </div>
+  </div>
+
+  <div class="big-banner container2" *ngFor="let item of bigBanners">
+    <div class="col6 forDesktop">
+      <img src="{{item.img1}}" alt="icon" />
+    </div>
+    <div size="6" class="col6 bgcolor">
+      <div class="box">
+        <h2>{{item.heading}}</h2>
+        <p>{{item.tagline}}</p>
+      </div>
+    </div>
+    <div size="6" class="col6 bgcolor">
+      <div class="box">
+        <h2>{{item.heading}}</h2>
+        <p>{{item.tagline}}</p>
+      </div>
+    </div>
+    <div class="col6 forDesktop">
+      <img src="{{item.img2}}" alt="icon" />
+    </div>
+    
+  </div>
+<div class="bg-main-img container2" *ngFor="let item of app">
+  <div class="bg-img">
+    <div class="col66">
+      <img src="{{item.img1}}" alt="icon" />
+    </div>
+    <div class="col66">
+      <div class="box-app">
+        <h2>{{item.heading}}</h2>
+        <p>{{item.tagline}}</p>
+      </div>
+    </div>
+    <div class="col66">
+      <div class="box-app box-app2 forDesktop">
+        <h2>{{item.heading}}</h2>
+        <p>{{item.tagline}}</p>
+      </div>
+    </div>
+    <div class="col66">
+      <img loading="lazy" src="{{item.img2}}" alt="icon" />
+    </div>
+  
+  </div>
+</div>
+<div class="testimonial container2" *ngFor="let item of testi">
+  <div size="6" class="col77 box-testi">
+    <img loading="lazy" class="circle" src="../../../assets/images/Snowflake.png" alt="icon" />
+    <img loading="lazy" class="avator" src="../../../assets/images/user-photo.png" alt="icon" />
+  </div>
+  <div class="col66 bgcolor">
+    <div class="box">
+        <h2>{{item.heading}}</h2>
+        <p>{{item.tagline}}</p>
+      <div class="name">
+        <h3>{{item.name}}</h3>
+        <p>{{item.position}}</p>
+      </div>
+    </div>
+  </div>
+</div>
+</div>

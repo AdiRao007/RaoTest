@@ -1,0 +1,13 @@
+<div class="main container2" *ngFor="let item of footer">
+  <div class="banner">
+    <div class="tagline">{{item.tagline}}</div>
+    <div color="primary">
+      <h2>{{item.heading}}</h2>
+    </div>
+
+    <div class="bnt-set">
+      <button class="explore">{{item.buttontext}}</button>
+    </div>
+      <img loading="lazy" class="main-pic" src="{{item.img1}}" alt="banner" /> 
+  </div>
+</div>

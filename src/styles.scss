@@ -1,1 +1,170 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+// Sass Variable
+
+$font-family: 'Montserrat', sans-serif;
+$background-color-blue: #3996e9;
+$background-color-modal: #111111bd;
+$border-for-search: 1px solid #ccc;
+$tagline-font-size: 16px;
+$main-heading-size: 48px;
+$font-weight-normal: normal;
+$color: #000000;
+$color-tagline: #4b5863;
+$color-blue: #43a9ff;
+$font-size-small: 14px;
+$whitecolor: #fff;
+$colorRed: red;
+
+
+
+html {
+    font-family: $font-family !important;
+}
+body {
+    font-family: $font-family !important;
+    margin: 0;
+    position: relative;
+}
+.container {
+    max-width: 1500px;
+    margin: 0 auto;
+    width: 98%;
+}
+// .container2 {
+//     max-width: 1920px;
+//     margin: 0 auto;
+//     width: 98%;
+// }
+
+
+img.main-pic {
+    width: 100%;
+}
+label.shadow:hover {
+    background-color: $color-blue;
+    cursor: pointer;
+}
+.search:hover {
+    background-color: $color-blue;
+    cursor: pointer;
+}
+app-dailog{
+    background: #111111bd;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    z-index: 9;
+}
+.main-modal {
+    padding-top: 14%;
+}
+app-search {
+    position: absolute;
+    right: 16px;
+    top: 110px;
+}
+input.search {
+    border: 1px solid #ccc;
+    padding: 5px 6px;
+    border-radius: 100px;
+}
+@media screen and (max-width: 1200px) {
+    ion-modal ion-content h2 {
+        font-size: 30px;
+    }
+    ion-modal ion-content p {
+        font-size: 20px;
+    }
+    .col77.box-testi {
+        display: table;
+        float: none !important;
+        width: 100% !important;
+    }
+    img.circle{
+        width: 300px !important;
+        float: none !important;
+        margin: 0 auto !important;
+    }
+    img.avator {
+        width: 300px !important;
+        left: 0 !important;
+    }
+    .col66.bgcolor {
+        position: relative !important;
+        width: 100% !important;
+        float: none;
+        height: auto !important;
+    }
+  }
+
+  @media screen and (max-width: 950px) {
+  .cols {
+    float: none !important;
+    width: 100% !important;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.services-text h2 {
+    margin-bottom: 6px !important;
+}
+.tagline2 {
+    font-size: 16px !important;
+    padding: 0 !important;
+    text-align: center !important;
+    display: table;
+    width: 100%;
+}
+.box-app {
+    width: 100% !important;
+}
+.col66 img {
+    width: 100%;
+}
+.col6 {
+    float: none !important;
+    width: 100% !important;
+    display: table !important;
+    height: auto !important;
+    position: relative;
+    margin-bottom: 20px;
+}
+.box {
+    position: static !important;
+}
+.bg-img .col66{
+    float: left !important;
+    width: 100% !important;
+    height: auto !important;
+    position: relative;
+}
+.box-app {
+    position: static !important;
+    width: 95% !important;
+    padding: 0 0px !important;
+}
+.testimonial .box {
+    text-align: center !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    width: 100%;
+    margin-top: 20px !important;
+    padding-bottom: 30px !important;
+}
+}
+
+@media screen and (max-width: 768px) {
+    .shadow {
+        margin-top: 12px !important;
+    }
+    .search {
+        margin-top: 10px !important;
+    }
+    .container .col{
+        width: 25% !important;
+    }
+    .container .col2{
+        width: 50% !important;
+    }
+
+  }

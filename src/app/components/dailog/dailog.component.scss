@@ -1,0 +1,55 @@
+@import "../../../variables.scss";
+.logo-set {
+    background-color: $whitecolor;
+    width: 200px;
+    border-radius: 100%;
+    padding: 26px;
+    height: 200px;
+    margin: 0 auto;
+    margin-bottom: -100px;
+    z-index: 1;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    position: relative;
+}
+.content-main-modal {
+    height: fit-content;
+    text-align: center;
+    background-color: $whitecolor;
+    padding: 140px 0;
+    padding-bottom: 70px;
+    border-radius: 5px;
+}
+.inner-box {
+    width: 95%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+.content-main-modal h2 {
+    color: $colorRed;
+    font-weight: bold;
+    font-size: 48px;
+}
+.content-main-modal p {
+    color: #b9bcd1;
+    font-size: 24px;
+    margin: 0;
+}
+.download {
+    background-color: #eb304d!important;
+    width: 290px;
+    height: 60px;
+    margin-top: 60px;
+    color: #fff;
+    font-size: 24px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+@media screen and (max-width: 900px) {
+    .content-main-modal h2 {
+        font-size: 25px;
+    }
+    .content-main-modal p {
+        font-size: 18px;
+    }
+}
