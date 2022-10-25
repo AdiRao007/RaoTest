@@ -21,7 +21,7 @@
   </div>
 
   <div class="big-banner container2" *ngFor="let item of bigBanners">
-    <div class="col6 forDesktop">
+    <div class="col6">
       <img src="{{item.img1}}" alt="icon" />
     </div>
     <div size="6" class="col6 bgcolor">
@@ -30,8 +30,11 @@
         <p>{{item.tagline}}</p>
       </div>
     </div>
+    <div class="col6 formobile">
+      <img src="{{item.img2}}" alt="icon" />
+    </div>
     <div size="6" class="col6 bgcolor">
-      <div class="box">
+      <div class="box box-set">
         <h2>{{item.heading}}</h2>
         <p>{{item.tagline}}</p>
       </div>
@@ -52,13 +55,16 @@
         <p>{{item.tagline}}</p>
       </div>
     </div>
-    <div class="col66">
-      <div class="box-app box-app2 forDesktop">
+    <div class="col66 col66-custom formob">
+      <img loading="lazy" src="{{item.img2}}" alt="icon" />
+    </div>
+    <div class="col66 col66-custom">
+      <div class="box-app box-app2">
         <h2>{{item.heading}}</h2>
         <p>{{item.tagline}}</p>
       </div>
     </div>
-    <div class="col66">
+    <div class="col66 col66-custom formob2">
       <img loading="lazy" src="{{item.img2}}" alt="icon" />
     </div>
   

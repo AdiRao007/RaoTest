@@ -9,6 +9,7 @@ $border-for-search: 1px solid #ccc;
 $tagline-font-size: 16px;
 $main-heading-size: 48px;
 $font-weight-normal: normal;
+$font-weight-bold: 600;
 $color: #000000;
 $color-tagline: #4b5863;
 $color-blue: #43a9ff;
@@ -31,12 +32,6 @@ body {
     margin: 0 auto;
     width: 98%;
 }
-// .container2 {
-//     max-width: 1920px;
-//     margin: 0 auto;
-//     width: 98%;
-// }
-
 
 img.main-pic {
     width: 100%;
@@ -56,8 +51,13 @@ app-dailog{
     width: 100%;
     z-index: 9;
 }
+app-footer .main.container2 {
+    max-width: 2000px;
+    margin: 0 auto;
+    width: 100%;
+}
 .main-modal {
-    padding-top: 14%;
+    padding-top: 5%;
 }
 app-search {
     position: absolute;
@@ -87,8 +87,9 @@ input.search {
         margin: 0 auto !important;
     }
     img.avator {
-        width: 300px !important;
+        width: 260px !important;
         left: 0 !important;
+        top: 0 !important;
     }
     .col66.bgcolor {
         position: relative !important;
@@ -100,8 +101,7 @@ input.search {
 
   @media screen and (max-width: 950px) {
   .cols {
-    float: none !important;
-    width: 100% !important;
+    width: 50% !important;
     text-align: center;
     margin-bottom: 50px;
 }
@@ -131,6 +131,7 @@ input.search {
 }
 .box {
     position: static !important;
+    text-align: center !important;
 }
 .bg-img .col66{
     float: left !important;
@@ -142,6 +143,7 @@ input.search {
     position: static !important;
     width: 95% !important;
     padding: 0 0px !important;
+    text-align: center !important;
 }
 .testimonial .box {
     text-align: center !important;
@@ -167,4 +169,13 @@ input.search {
         width: 50% !important;
     }
 
+  }
+
+  @media screen and (max-width: 480px) {
+    .cols {
+        width: 100% !important;
+        text-align: center;
+        margin-bottom: 50px;
+        float: none !important;
+    }
   }

@@ -4,14 +4,14 @@
     text-align: center;
     .banner h2 {
         font-size: $main-heading-size;
-        font-weight: normal;
+        font-weight: 600;
         margin-top: 0;
     }
     .tagline {
         color: $color-tagline;
         font-size: $tagline-font-size;
         font-weight: normal;
-        opacity: 30%;
+        opacity: 50%;
     }
     .explore {
         display: table;
@@ -19,7 +19,7 @@
         background-color: $whitecolor !important;
         color: $color-blue !important;
         margin-top: 6%;
-        margin-bottom: 30px;
+        margin-bottom: 65px;
         box-shadow: rgb(98 100 101 / 13%) 0px 1px 10px 1px, rgb(139 139 139 / 13%) 0px 1px 3px -1px;
         width: 233px;
         height: 52px;

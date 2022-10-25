@@ -25,6 +25,10 @@ export class OurServicesComponent implements OnInit {
       tagline : 'Suspendisse vel leo efficitur, venenatis est ut, tincidunt nibh.',
       img:  '../../../assets/images/c3.png' 
     },
+    { heading : 'Lorem ipsum dolor sit amet', 
+      tagline : 'Suspendisse vel leo efficitur, venenatis est ut, tincidunt nibh.',
+      img:  '../../../assets/images/c4.png' 
+    },
   ]
   bigBanners = [
     { img1 : '../../../assets/images/ic1.png', 
@@ -45,7 +49,7 @@ export class OurServicesComponent implements OnInit {
   testi = [
     { img1 : '../../../assets/images/Snowflake.png', 
       img2 : '../../../assets/images/user-photo.png', 
-      heading : 'emplate is awesome', 
+      heading : 'Template is awesome', 
       tagline : 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vel leo efficitur, venenatis est ut, tincidunt nibh. Suspendisse lobortis lectus vel imperdiet ullamcorper.',
       name: 'John Doe',
       position: 'John Doe'

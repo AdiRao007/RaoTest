@@ -1,11 +1,11 @@
 @import "../../../variables.scss";
 
 .main {
-  padding-top: 345px;
+  padding-top: 334px;
   text-align: center;
   .banner h2 {
       $tagline-font-size: $main-heading-size;
-      font-weight: $font-weight-normal;
+      font-weight: 600;
       margin-bottom: 20px;
       color: #000000;
       font-family: $font-family !important;
@@ -19,13 +19,16 @@
  }
   .banner {
       position: relative;
+    max-width: 2000px;
+    margin: 0 auto;
+    width: 100%;
  }
   .btn {
       display: table;
       margin: 0 auto;
       background-color: $whitecolor !important;
       color: $color-blue !important;
-      margin-top: 6%;
+      margin-top: 82px;
       margin-bottom: 30px;
       box-shadow: rgb(98 100 101 / 13%) 0px 1px 10px 1px, rgb(139 139 139 / 13%) 0px 1px 3px -1px;
       width: 233px;
@@ -154,7 +157,7 @@ button {
 }
 @media screen and (max-width: 700px) {
   .main {
-      padding-top: 180px !important;
+      padding-top: 130px !important;
  }
   .main .banner h2 {
       font-size: 25px;
@@ -162,6 +165,10 @@ button {
       display: table;
       width: 100%;
  }
+ img.main-pic {
+  width: 100%;
+  margin-top: 90px;
+}
   .shadow {
       margin-top: 12px !important;
  }
